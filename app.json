@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "firebase-event-test-app",
+    "slug": "test",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyD-ONKT3DT4r3bPL_qCjRLUdAf8MTpAFjI",
+          "authDomain": "ah-data-expo-test.firebaseapp.com",
+          "projectId": "ah-data-expo-test",
+          "storageBucket": "ah-data-expo-test.appspot.com",
+          "messagingSenderId": "574832115544",
+          "appId": "1:574832115544:web:6e02556633b83ff343af2d",
+          "measurementId": "G-4TDJSF4C3F"
+        }
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c00ce073-4385-433d-a2f9-eefb1fb3b649"
+      }
+    },
+    "owner": "ahdata"
+  }
+}
